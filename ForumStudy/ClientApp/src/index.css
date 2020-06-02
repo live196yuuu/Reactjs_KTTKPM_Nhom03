@@ -1,0 +1,40 @@
+div.head{
+    background: #0073aa;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    padding: 11px 20px;
+}
+div.categories{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #dfdfdf;
+    margin-bottom: 10px;
+}
+.currentPage{
+    background: red;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    color: white;
+  
+  }
+  .generalPage{
+    background: green;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    color: white;
+  
+  }
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+    div.head{
+        display: none;
+    }
+}
